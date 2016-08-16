@@ -1,6 +1,6 @@
 import unittest
 import stoc
-class TestStringMethods(unittest.TestCase):
+class TestStocMethods(unittest.TestCase):
 
 	def test_upper(self):
 		self.assertEqual('foo'.upper(), 'FOO')
