@@ -1,5 +1,6 @@
+import numpy as np
 def bm():
-	return "hello"
+	return sum(np.zeros(5))
 
 def sde():
 	return "hello"

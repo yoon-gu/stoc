@@ -23,7 +23,7 @@ class TestStringMethods(unittest.TestCase):
 		self.assertEqual(stoc.__author__, 'Jacob Hwang <yz0624@gmail.com>')
 
 	def test_bm(self):
-		self.assertEqual(stoc.bm(), "hello")
+		self.assertEqual(stoc.bm(), 0)
 
 	def test_sde(self):
 		self.assertEqual(stoc.sde(), "hello")
