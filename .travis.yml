@@ -11,13 +11,14 @@ python:
 os:
   - linux
   - osx
-  
+
 # command to install dependencies
 install: 
   - pip install -q -U pip setuptools
 
 # command to run tests
-script: nosetests
+script: 
+  - nosetests
 
 # after_success:
 #   - bash <(curl -s https://codecov.io/bash)
