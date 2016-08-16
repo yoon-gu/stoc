@@ -1,8 +1,4 @@
-from setuptools import setup, Distribution, find_packages
-
-class BinaryDistribution(Distribution):
-	def is_pure(self):
-		return False
+from setuptools import setup, find_packages
 
 setup(	name='stoc', version='0.0',
 		description='Stochastic Optimal Control Library',
@@ -15,6 +11,4 @@ setup(	name='stoc', version='0.0',
 			'numpy',
 			# 'scipy',
 		],
-		include_package_data=True,
-		distclass=BinaryDistribution,
 		zip_safe=False)
