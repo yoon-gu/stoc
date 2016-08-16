@@ -20,7 +20,6 @@ class TestStringMethods(unittest.TestCase):
 		self.assertTrue(True)
 
 	def test_import(self):
-		import stoc
 		self.assertEqual(stoc.__author__, 'Jacob Hwang <yz0624@gmail.com>')
 	def test_bm(self):
 		self.assertEqual(stoc.bm(), "hello")
