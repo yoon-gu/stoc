@@ -1,6 +1,10 @@
 import numpy as np
-def bm():
-	return sum(np.zeros(5))
+def bm(size, seed = None):
+	if(seed):
+		np.random.seed(seed)
+
+	val = np.random.randn(size)
+	return sum(val)
 
 def sde():
 	return "hello"

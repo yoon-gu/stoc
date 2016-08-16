@@ -1,5 +1,6 @@
 import unittest
 import stoc
+import numpy as np
 class TestStocMethods(unittest.TestCase):
 
 	def test_upper(self):
@@ -23,7 +24,10 @@ class TestStocMethods(unittest.TestCase):
 		self.assertEqual(stoc.__author__, 'Jacob Hwang <yz0624@gmail.com>')
 
 	def test_bm(self):
-		self.assertEqual(stoc.bm(), 0)
+		size = 10
+		np.random.seed(1987)
+		val = np.random.randn(size)
+		self.assertEqual(stoc.bm(size, seed=1987), np.sum(val))
 
 	def test_sde(self):
 		self.assertEqual(stoc.sde(), "hello")
