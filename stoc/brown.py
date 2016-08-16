@@ -1,0 +1,2 @@
+def bm():
+	return "hello"
