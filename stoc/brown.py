@@ -1,2 +1,8 @@
 def bm():
-	return "hell"
+	return "hello"
+
+def sde():
+	return "hello"
+
+def bsde():
+	return "hello"
