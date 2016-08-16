@@ -1,2 +1,2 @@
 def bm():
-	return "hello"
+	return "hell"
