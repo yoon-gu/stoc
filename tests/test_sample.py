@@ -21,5 +21,12 @@ class TestStringMethods(unittest.TestCase):
 
 	def test_import(self):
 		self.assertEqual(stoc.__author__, 'Jacob Hwang <yz0624@gmail.com>')
+
 	def test_bm(self):
 		self.assertEqual(stoc.bm(), "hello")
+
+	def test_sde(self):
+		self.assertEqual(stoc.sde(), "hello")
+
+	def test_bsde(self):
+		self.assertEqual(stoc.bsde(), "hello")
