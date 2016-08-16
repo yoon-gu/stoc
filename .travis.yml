@@ -14,7 +14,7 @@ os:
 
 # command to install dependencies
 install: 
-  - pip install -q -U pip setuptools nose
+  - pip install -q -U pip setuptools nose coveralls
 
 # command to run tests
 script: 
