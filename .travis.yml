@@ -8,7 +8,7 @@ python:
   
 os:
   - linux
-  - osx
+  # - osx # Travis does not support Python in OS X
 
 # command to install dependencies
 install: 
