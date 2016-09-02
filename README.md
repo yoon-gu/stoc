@@ -4,6 +4,9 @@
 [![codecov](https://codecov.io/gh/yoon-gu/stoc/branch/master/graph/badge.svg)](https://codecov.io/gh/yoon-gu/stoc)
 [![Coverage Status](https://coveralls.io/repos/github/yoon-gu/stoc/badge.svg)](https://coveralls.io/github/yoon-gu/stoc)
 # STochastic Optimal Control (`stoc`)
-## Stochastic Differential Equation(SDE)
-## Backward SDE(BSDE)
-## Forward-Backward SDE(FBSDE)
+## Pontryagin's Maximum Principle
+### Stochastic Differential Equation(SDE)
+### Backward SDE(BSDE)
+### Forward-Backward SDE(FBSDE)
+## Bellman's Maximum Principle
+### Hamilton-Jacobi-Bellman Equation
