@@ -31,7 +31,7 @@ class TestStocMethods(unittest.TestCase):
 		val = np.sqrt(dt) * np.random.randn(size-1)
 		val = np.insert(zero, 1, val)
 		val = np.cumsum(val)
-		self.assertEqual(stoc.bm(size, seed=1987), val)
+		np.testing.assert_array_equal(stoc.bm(size, seed=1987), val)
 
 	def test_sde(self):
 		self.assertEqual(stoc.sde(), "hello")
