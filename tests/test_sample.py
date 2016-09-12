@@ -26,7 +26,11 @@ class TestStocMethods(unittest.TestCase):
 	def test_bm(self):
 		size = 10
 		np.random.seed(1987)
-		val = np.random.randn(size)
+		dt = T / (size - 1)
+		zero = np.zeros(1)
+		val = np.sqrt(dt) * np.random.randn(size-1)
+		val = np.insert(zero, 1, val)
+		val = np.cumsum(val)
 		self.assertEqual(stoc.bm(size, seed=1987), np.sum(val))
 
 	def test_sde(self):
